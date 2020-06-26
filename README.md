@@ -6,3 +6,4 @@ Modul 152
 * Color Picker
 * Beautifyer
 * Bracket Pair Colorizer
+* Live Server
