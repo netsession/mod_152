@@ -2,3 +2,29 @@ body{
   margin:0;
   background-color: $hcolor;
 }
+main{
+    font: 100 18px/22px "Georgia, sans-serif";
+      p.title{
+      color: #50ade5;
+      font: 900 14px/22px Helvetica, Arial, sans-serif;
+      }
+}
+h1 {
+  color: #333;
+  font: 900 42px/44px 'merriweather';
+  letter-spacing: -1px;
+  margin: 44px 0 0 0;
+}
+
+h2 {
+  color: #333;
+  font: 900 14px/22px 'merriweather';
+}
+
+hr {
+  background: #333;
+  border: 0;
+  height: 3px;
+  margin: 19px 0 22px 0;
+  width: 100px;
+}
