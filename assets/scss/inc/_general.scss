@@ -3,22 +3,22 @@ body{
   background-color: $hcolor;
 }
 main{
-    font: 100 18px/22px "Georgia, sans-serif";
+    font: 100 18px/22px merriweatherregular, sans-serif;
       p.title{
-      color: #50ade5;
-      font: 900 14px/22px Helvetica, Arial, sans-serif;
+      color: #e64b40;
+      font: 900 14px/22px latoregular, serif;
       }
 }
 h1 {
   color: #333;
-  font: 900 42px/44px 'merriweather';
+  font: 900 42px/44px merriweatherregular, sans-serif;
   letter-spacing: -1px;
   margin: 44px 0 0 0;
 }
 
 h2 {
   color: #333;
-  font: 900 14px/22px 'merriweather';
+  font: 900 14px/22px merriweatherregular, sans-serif;
 }
 
 hr {
@@ -27,4 +27,31 @@ hr {
   height: 3px;
   margin: 19px 0 22px 0;
   width: 100px;
+}
+span::before {
+  color: #7e9dca;
+  font-size: 180%;
+  margin: 0 1.1rem;
+}
+footer{
+  clear: both;
+  text-align: right;
+}
+
+header{
+  text-align: center;
+}
+img.topo{
+  width: 60%;
+  margin: 20px 100px;
+  &:hover{
+    filter: drop-shadow(5px 5px 5px #333);
+  }
+}
+img.kugel {
+  transition: .6s ease-in-out 0s;
+  &:hover {
+    transform: rotate(-180deg);
+    filter: grayscale(100%);
+  }
 }
