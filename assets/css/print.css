@@ -1,0 +1,40 @@
+body {
+  font-family: Garamond,"Times New Roman", serif;
+  font-size: 14pt;
+  background: none;
+  color: #000;
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+iframe, video, footer, nav {
+  display: none;
+}
+
+img.kugel {
+  width: 20%;
+  float: left;
+  margin-right: 20pt;
+}
+img.topo{
+  width: 30%;
+  float: right;
+}
+img.center {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+a:link:after, a:visited:after {
+  content: " [" attr(href) "] ";
+}
+main{
+  margin-top: 30pt;
+}

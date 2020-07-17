@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modul 152</title>
+  <link rel="stylesheet" href="assets/css/screen.min.css">
+  <style>
+    section{
+      height: 100vh;
+    }
+  video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.h{
+  height: 100%;
+  background-color: tomato;
+}
+h1{margin: 0;}
+.headertext a {
+    position: absolute;
+    top: 40vh;
+    left: 60px;
+    color: white;
+    font-size: 6rem;
+    margin: 0;
+}
+.zwei{
+z-index: 2;
+}
+  </style>
+</head>
+<body>
+  <section class="video">
+    <h1 class="headertext"><a href="#"> Busfahren ist so cool!</a></h1>
+    <video playsinline autoplay muted loop id="bgvid">
+      <source src="assets/video/video1.webm" type="video/webm">
+      <source src="assets/video/video1.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+<h1>test</h1>
+  </section>
+  <div class="h">
+    <h1>Die höhe</h1>
+  </div>
+  <footer>
+    <span class="icon-google"></span>
+    <span class="icon-facebook"></span>
+    <span class="icon-twitter"></span>
+    <span class="icon-vimeo"></span>
+    <span class="icon-behance"></span>
+    <span class="icon-github"></span>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
